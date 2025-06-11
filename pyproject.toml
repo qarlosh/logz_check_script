@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "logz-check-script"
+version = "1.0"
+description = ""
+authors = ["somebody"]
+packages = [
+    { include = "logzcheck" }
+]
+readme = "./README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
